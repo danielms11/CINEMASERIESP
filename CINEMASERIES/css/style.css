@@ -1,0 +1,218 @@
+/*Móvil*/
+/*Para toda la página*/
+
+.videos {
+    width: 375px;
+    height: 211px;
+}
+
+.aNone>a {
+    text-decoration: none;
+}
+
+.inputSearchYText:hover {
+    box-shadow: 0px 0px 5px 5px #53FBDB;
+}
+
+.botones {
+    background-color: #002637;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+.botones:hover {
+    border: 1px solid #53FBDB;
+    color: #53FBDB;
+}
+
+/*Header y todo lo que hay dentro de la etiqueta*/
+
+header {
+    background-color: #002637;
+    text-align: center;
+}
+
+#logo-cinemaseries {
+    width: 145px;
+    height: 154px;
+}
+
+/*Nav y todo lo que hay dentro de la etiqueta*/
+
+nav {
+    background-color: #002637;
+}
+
+#menuLinks>li>a {
+    color: white;
+}
+
+#menuLinks>li>a:hover {
+    color: #53FBDB;
+}
+
+/*Section y todo lo que hay dentro de la etiqueta*/
+
+section {
+    background-color: #1f3742;
+}
+
+.imagenes {
+    text-align: center;
+}
+
+.imagenesCarousel {
+    width: 375px;
+    height: 211px;
+}
+
+article {
+    background-color: white;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.contenidoArticle>h1>a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenidoArticle>p>a {
+    text-decoration: none;
+}
+
+/*Footer y todo lo que hay dentro de la etiqueta*/
+
+footer {
+    text-align: center;
+}
+
+/* Estilos para los formularios*/
+
+.formularios {
+    background-color: #1f3742;
+    color: white;
+}
+
+.formulario {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formularioStyle {
+    background-color: #002637;
+    border-radius: 5px 5px 5px 5px;
+    padding: 50px;
+    border: 1px solid white;
+}
+
+.formularioStyleCrearCuenta {
+    background-color: #002637;
+    border-radius: 5px 5px 5px 5px;
+    padding: 50px;
+    border: 1px solid white;
+}
+
+/*Estilos para las cartas*/
+
+.imagenCarta {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    perspective: 1000px;
+    border-radius: 50%;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+    border-radius: 50%;
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 50%;
+}
+
+.flip-card-front {
+    color: black;
+    border-radius: 50%;
+}
+
+.flip-card-back {
+    color: black;
+    transform: rotateY(180deg);
+    border-radius: 50%;
+}
+
+/*Ordenador*/
+
+@media screen and (min-width: 992px) {
+
+    .videos {
+        width: 600px;
+        height: 355px;
+    }
+
+    /*Header y todo lo que hay dentro de la etiqueta*/
+
+    #logo-cinemaseries {
+        width: 195px;
+        height: 204px;
+    }
+
+    /*Section y todo lo que hay dentro de la etiqueta*/
+
+    .imagenesCarousel {
+        width: 1200px;
+        height: 675px;
+    }
+
+    article {
+        margin-left: 117px;
+        margin-right: 117px;
+    }
+
+    /*Footer y todo lo que hay dentro de la etiqueta*/
+
+    footer {
+        padding: 20px;
+    }
+
+    /* Estilos para los formularios*/
+
+    .formularioStyle {
+        padding: 100px;
+    }
+
+    .formularioStyleCrearCuenta {
+        padding: 60px;
+        width: 600px;
+        height: 650px;
+    }
+}

@@ -1,0 +1,35 @@
+.formularioPagina {
+  background-color: #1f3742;
+}
+
+.formulario {
+  background-color: #002637;
+  border-radius: 10px;
+}
+
+label {
+  color: white;
+}
+
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.tinymce-editor {
+  height: 300px;
+}
+
+.botones {
+  background-color: #002637;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px 5px 5px 5px;
+  padding: 5px;
+}
+
+.botones:hover {
+  border: 1px solid #53FBDB;
+  color: #53FBDB;
+}
